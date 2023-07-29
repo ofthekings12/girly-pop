@@ -1,12 +1,15 @@
 import React from 'react'
-import videobg from '../assets/girlypopbg.mp4'
+import videobg from '../assets/girlypopbglow.mp4'
+import './ActiveScreen.css'
 
 function ActiveScreen({ closePlayer} ) {
   return (
+
     <div className='videobg'>
-      <video src={videobg} autoPlay loop muted/>
-      <button onClick={() => closePlayer(false)}>Daddy, chill</button>
+      <video className='visuals' src={videobg} autoPlay loop muted/>
+      <button className='chill' onClick={() => closePlayer(false)}>Daddy, chill</button>
     </div>
+
   )
 }
 

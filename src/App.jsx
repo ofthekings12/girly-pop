@@ -1,14 +1,25 @@
+import { useState } from 'react'
 import './App.css'
-import Home from './Components/Home'
-import ActiveScreen from './Components/ActiveScreen'
+import ActiveScreen from './Components/ActiveScreen';
 
 
 function App() {
+const [openPlayer, setOpenPlayer] = useState(false);
 
   return (
-    <div>
-    <Home/>
+    <div className='bg'>
+      <button className='get-girly-pop' onClick={() => {
+        setOpenPlayer(true)
+      }}>
+        Let's Get Girly Pop ✨
+      </button>
+
+      {openPlayer && 
+      <div className='active'>
+        <ActiveScreen closePlayer={setOpenPlayer}/>
+        </div>}
     </div>
+    
   )
 }
 
