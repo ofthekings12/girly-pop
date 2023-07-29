@@ -8,11 +8,12 @@ const [openPlayer, setOpenPlayer] = useState(false);
 
   return (
     <div className='bg'>
+      {!openPlayer &&
       <button className='get-girly-pop' onClick={() => {
         setOpenPlayer(true)
       }}>
         Let's Get Girly Pop ✨
-      </button>
+      </button>}
 
       {openPlayer && 
       <div className='active'>
