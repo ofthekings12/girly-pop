@@ -30,7 +30,7 @@ function ActiveScreen({ closePlayer }) {
         onClick={() => closePlayer(false)}
         style={{ opacity: hover ? 1 : buttonOpacity }}
       >
-        Daddy, chill ✋🏽
+        K, chill ✋🏽
       </button>
     </div>
   );

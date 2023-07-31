@@ -36,7 +36,6 @@ object-fit: cover;
   position: absolute;
   top: 45%;
   left: 43%;
-  right: 0;
   z-index: 10;
   transition: opacity 2s ease;
 }
