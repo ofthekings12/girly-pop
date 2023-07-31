@@ -48,6 +48,13 @@ cursor: pointer;
 transition: opacity 2s ease;
 }
 
+.credits {
+  font-family: 'Handjet';
+  font-weight: 200;
+  padding: 5px;
+  transition: opacity 2s ease;
+}
+
 @media (max-width: 600px) {
   .chill-btn {
     width: 150px;

@@ -31,6 +31,13 @@ function ActiveScreen({ closePlayer }) {
       >
         K, chill ✋🏽
       </button>
+      <div className='credits'
+              onMouseEnter={() => setHover(true)}
+              onMouseLeave={() => setHover(false)}
+              style={{ opacity: hover ? 1 : buttonOpacity }}>
+      Audio: <a href="https://www.instagram.com/kimpetras/?hl=en">Kim Petras</a>
+      Visuals: <a href="https://www.portiswasp.com/">Portis Wasp</a>
+      </div>
       </div>
     </div>
   );
