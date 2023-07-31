@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import videobg from '../assets/girlypopbglow.mp4';
-import './ActiveScreen.css';
+import React, { useState, useEffect } from "react";
+import videobg from "../assets/girlypopbglow.mp4";
+import "./ActiveScreen.css";
+import YouTubePlayer from "./YouTubePlayer";
 
 function ActiveScreen({ closePlayer }) {
   const [buttonOpacity, setButtonOpacity] = useState(1);
@@ -18,20 +19,19 @@ function ActiveScreen({ closePlayer }) {
   }, []);
 
   return (
-    <div
-      className='video-bg'
- 
-    >
-      <video className='visuals' src={videobg} autoPlay loop muted />
-      <button     
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-        className='chill'
+    <div className="video-bg">
+        <YouTubePlayer videoId="Y2j8zmD5klY" isActive={true} />
+      <video className="visuals" src={videobg} autoPlay loop muted />
+      <div className="chill">
+      <button className="chill-btn"
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
         onClick={() => closePlayer(false)}
         style={{ opacity: hover ? 1 : buttonOpacity }}
       >
         K, chill ✋🏽
       </button>
+      </div>
     </div>
   );
 }
