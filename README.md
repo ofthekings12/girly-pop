@@ -1,10 +1,11 @@
 # Overview
-Get Girly Pop is a fun and nostalgic web project that pays homage to the early 2000s internet fads and games, reminiscent of the simple yet engaging web experiences like [The Scary Maze Game](https://scary-maze.com/), [badgerbadgerbadger.com](badgerbadgerbadger.com), and the [Boneless Girl Game](https://www.miniplay.com/game/boneless-girl).
+Let's Get Girly Pop is a fun and nostalgic web project that pays homage to the early 2000s internet fads and games, reminiscent of the simple yet engaging web experiences like [The Scary Maze Game](https://scary-maze.com/), [badgerbadgerbadger.com](badgerbadgerbadger.com), and the [Boneless Girl Game](https://www.miniplay.com/game/boneless-girl).
 
 The project aims to provide users with a visually immersive experience and an energetic musical journey, evoking a sense of playful nostalgia and embracing the vibrant spirit of unapologetic self-expression. It offers a unique blend of vivid visuals and queer hyperpop music, creating an electric atmosphere reminiscent of moments of reckless abandon. Step into a world where creativity knows no bounds, and the beats pulse with a captivating allure, setting the stage for an unforgettable encounter with the art of "getting girly pop."
+(Girly Pop or GirlyPop is an internet slang term that refers to a stereotypically feminine female or male who is "a constantly slaying queen that has everyone captivated with every move they make.")
 
 # Disclaimer!!
-The content presented in the Get Girly Pop project includes visuals and music that may not be suitable for all audiences. Viewer discretion is advised, and users are responsible for their own experience. The project creator does not endorse or promote any inappropriate or harmful content.
+The content presented in the Let's Get Girly Pop project includes visuals and music that may not be suitable for all audiences. Viewer discretion is advised, and users are responsible for their own experience. The project creator does not endorse or promote any inappropriate or harmful content.
 
 # Features
 **Simplicity at Its Best:** The project keeps things simple, just like the internet fads of the past, presenting users with a single button to begin the experience.
