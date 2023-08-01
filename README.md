@@ -22,7 +22,7 @@ The content presented in the Get Girly Pop project includes visuals and music th
 - YouTube Data API (for dynamic video content)
 
 # Wanna get Girly Pop? ✨
-Click [here](letsgetgirlypop.netlify.app) to begin the experience!
+Click [here](https://letsgetgirlypop.netlify.app/)) to begin the experience!
 
 # Acknowledgments
 - Audio: Slutpop EP - Kim Petras
